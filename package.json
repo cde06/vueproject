@@ -61,6 +61,10 @@
       "vue-cli-service lint",
       "vue-cli-service test:unit",
       "git add"
+    ],
+    "tests/**/*.{js}": [
+      "vue-cli-service lint",
+      "git add"
     ]
   }
 }
