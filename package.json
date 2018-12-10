@@ -57,12 +57,9 @@
     "pre-commit": "lint-staged"
   },
   "lint-staged": {
-    "*.js": [
+    "src/**/*.{js,vue}": [
       "vue-cli-service lint",
-      "git add"
-    ],
-    "*.vue": [
-      "vue-cli-service lint",
+      "vue-cli-service test:unit",
       "git add"
     ]
   }
