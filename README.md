@@ -2,7 +2,9 @@
 
 ## Run this command to setup locally your hook
 
+```
 git config core.hooksPath hooks/
+```
 
 ## Project setup
 
