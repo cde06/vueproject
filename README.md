@@ -1,6 +1,6 @@
 # vueproject
 
-## Run this command to setup locally your hook
+## Run this command to setup locally your hooks
 
 ```
 git config core.hooksPath hooks/
